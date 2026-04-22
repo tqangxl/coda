@@ -1,0 +1,9 @@
+{
+  "agent_id": "commander",
+  "status": "active",
+  "role": "wiki_engine",
+  "current_task": "initialization",
+  "last_seen": 1776798321.667766,
+  "capabilities": [],
+  "session_id": ""
+}

@@ -1,0 +1,27 @@
+{
+  "step": 128,
+  "timestamp": 1775507293.8374925,
+  "model": "mock-war-god",
+  "thought": "Testing security boundaries.",
+  "analysis": "",
+  "plan": "",
+  "tool_calls": [
+    {
+      "name": "run_command",
+      "arguments": {
+        "command": "ls /"
+      }
+    }
+  ],
+  "tool_results": [
+    {
+      "tool_name": "run_command",
+      "result": "ERROR: Hook Blocked execution. Reason: QueryGuard: Rate limit exceeded (129 calls/min)"
+    }
+  ],
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cache": 0
+  }
+}

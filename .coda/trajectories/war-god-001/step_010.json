@@ -1,0 +1,27 @@
+{
+  "step": 10,
+  "timestamp": 1775507292.5657387,
+  "model": "mock-war-god",
+  "thought": "Testing security boundaries.",
+  "analysis": "",
+  "plan": "",
+  "tool_calls": [
+    {
+      "name": "run_command",
+      "arguments": {
+        "command": "ls /"
+      }
+    }
+  ],
+  "tool_results": [
+    {
+      "tool_name": "run_command",
+      "result": "[STDERR]\n'ls' is not recognized as an internal or external command,\r\noperable program or batch file.\n[EXIT CODE: 1]"
+    }
+  ],
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cache": 0
+  }
+}

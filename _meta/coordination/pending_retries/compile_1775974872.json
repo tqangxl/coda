@@ -1,0 +1,11 @@
+{
+  "id": "compile_1775974872",
+  "action": "compile",
+  "target": "D:\\ai\\workspace\\agents",
+  "payload": {},
+  "error": "'MemoryCompiler' object has no attribute '_omni'",
+  "retry_count": 0,
+  "max_retries": 3,
+  "created_at": 1775974872.7077377,
+  "next_retry_at": 0
+}

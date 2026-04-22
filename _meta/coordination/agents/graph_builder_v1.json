@@ -1,0 +1,9 @@
+{
+  "agent_id": "graph_builder_v1",
+  "status": "active",
+  "role": "wiki_engine",
+  "current_task": "initialization",
+  "last_seen": 1775912968.782492,
+  "capabilities": [],
+  "session_id": ""
+}

@@ -1,0 +1,916 @@
+{
+  "version": "6.0",
+  "updated_at": 1775912969.1467159,
+  "entries": {
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\advisor.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\advisor.py",
+      "content_hash": "769f14dc0dc5cb027e87163d2e28e307cb3afb817112ccdee8940ce849307aae",
+      "file_size": 61480,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.8342488,
+      "derived_pages": [
+        "advisor"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\agent_engine.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\agent_engine.py",
+      "content_hash": "26a0ce6a6dd820ea125725a4c51934b2f1c1c9940c3882a054bab39a1e100357",
+      "file_size": 37978,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.8431783,
+      "derived_pages": [
+        "agent_engine"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\base_types.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\base_types.py",
+      "content_hash": "95ae52223c4b2f2c0437e83f0f2befdadf593ee92bb3213cc9a7b495b7825e27",
+      "file_size": 21245,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.8480492,
+      "derived_pages": [
+        "base_types"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\buddy.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\buddy.py",
+      "content_hash": "76ab246576ef8f18639d19b367400e720915db5b8ca3ec2869e29f4b7331a726",
+      "file_size": 9834,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.8520355,
+      "derived_pages": [
+        "buddy"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\check_models.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\check_models.py",
+      "content_hash": "856e423d8aad26fbe3dc0348512beb97bc452a008e7758124579d01d8d8b3a81",
+      "file_size": 960,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.8532784,
+      "derived_pages": [
+        "check_models"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\cli.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\cli.py",
+      "content_hash": "702dd04f96af6db7b76740feb564eac5334406b1cf63740e6130252ee1f392e7",
+      "file_size": 5577,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.8553305,
+      "derived_pages": [
+        "cli"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\commands.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\commands.py",
+      "content_hash": "d1531092c0f328e1985ae3d0237b9461e87581b0eed3b339536d3eac348b9739",
+      "file_size": 19689,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.859904,
+      "derived_pages": [
+        "commands"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\context.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\context.py",
+      "content_hash": "274902156362eb0ab4f5e649175877d18713ce554e4d7972ecbd612bfd59a4d2",
+      "file_size": 11357,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.8629427,
+      "derived_pages": [
+        "context"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\coordinator.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\coordinator.py",
+      "content_hash": "48a83f332477560af4d1b63955201ed2fbd702d788fef2adec51889be742efe6",
+      "file_size": 7208,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.8657346,
+      "derived_pages": [
+        "coordinator"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\db.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\db.py",
+      "content_hash": "39d594a2760eb2d6abf67d8cf63c3751e67756504485838770c97b033d0c546b",
+      "file_size": 27992,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.8716018,
+      "derived_pages": [
+        "db"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\doctor.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\doctor.py",
+      "content_hash": "2229104f8d2acd72e19751f0bb9d88bcf49b1e043706a34f585741b6a17fca6c",
+      "file_size": 6079,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.8737679,
+      "derived_pages": [
+        "doctor"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\economy.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\economy.py",
+      "content_hash": "bec062aa83aed1e22f48b64b256d3f8f78e5790cee451b70fecfeaf1fca60550",
+      "file_size": 5432,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.8759465,
+      "derived_pages": [
+        "economy"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\embedder.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\embedder.py",
+      "content_hash": "fa2f3da9eb5412bedcb1c9a6c910ea0c9b87d6644a990e01879597f0b2d39dfd",
+      "file_size": 4665,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.8796127,
+      "derived_pages": [
+        "embedder"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\git_checkpoint.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\git_checkpoint.py",
+      "content_hash": "3fee54d3d670e8f697345cc6b2e32f76eb3ee2566bd64be58666055cbc6f8913",
+      "file_size": 7302,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.8834124,
+      "derived_pages": [
+        "git_checkpoint"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\hierarchy.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\hierarchy.py",
+      "content_hash": "7d64fc95aa02aa16d9cba8913e86df2cf175b2367706a9e309a234df3c153a18",
+      "file_size": 4683,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.8865683,
+      "derived_pages": [
+        "hierarchy"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\history.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\history.py",
+      "content_hash": "2c49f89c0947f287d2977799cab62fad4d3fe3825b5c91bf6b4600db58245a7c",
+      "file_size": 7824,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.890413,
+      "derived_pages": [
+        "history"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\hooks.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\hooks.py",
+      "content_hash": "fd49fd549b40b3deacd30c9bf141cc5aa65a3fd810efd857a791d845776c08a5",
+      "file_size": 9264,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.8950453,
+      "derived_pages": [
+        "hooks"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\identity.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\identity.py",
+      "content_hash": "a6e567b770b8552f76cfa27b3e366254c1347c6bd92711a8c9de09c075ab9675",
+      "file_size": 14142,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.9006648,
+      "derived_pages": [
+        "identity"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\ide_bridge.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\ide_bridge.py",
+      "content_hash": "e6195f95441d0db1582eb40fed58b82f4d2cedf3d612397956b13582ae88c5df",
+      "file_size": 25711,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.9059217,
+      "derived_pages": [
+        "ide_bridge"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\intent_engine.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\intent_engine.py",
+      "content_hash": "3fbd31fbb917ee13131d844e632475d46c69c3f249babcb6d990aca858243d29",
+      "file_size": 168924,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.9336615,
+      "derived_pages": [
+        "intent_engine"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\jwt_auth.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\jwt_auth.py",
+      "content_hash": "2f560d57ee9975de3dadd899af5e7339e868d0560b7e074d1e2dbd6496e8cebb",
+      "file_size": 3656,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.9353945,
+      "derived_pages": [
+        "jwt_auth"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\knowledge.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\knowledge.py",
+      "content_hash": "fed506f48423d90eb02cf0a6e60eb52e6caf99146359abbfc2d82f29cba27c60",
+      "file_size": 13234,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.9392195,
+      "derived_pages": [
+        "knowledge"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\knowledge_plugin.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\knowledge_plugin.py",
+      "content_hash": "ed94c1a1318ea09a46a7522acc1719b15ee37524a2493fb5b65f0979500c3b0a",
+      "file_size": 5802,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.9419007,
+      "derived_pages": [
+        "knowledge_plugin"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\llm_caller.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\llm_caller.py",
+      "content_hash": "c98280bdb87c63d499ed357427d263c1532ba5375bcb06d940fad8790897cfe4",
+      "file_size": 33445,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.949322,
+      "derived_pages": [
+        "llm_caller"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\maintenance.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\maintenance.py",
+      "content_hash": "72bf9fc4e0199daf468aa00406d6345d13b16eb6d6fb96c99078921cb7e6c340",
+      "file_size": 4184,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.9511585,
+      "derived_pages": [
+        "maintenance"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\mcp_connector.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\mcp_connector.py",
+      "content_hash": "2814c2f6f702aa7a75704e0c8eb39fea230a043d7d64493fe4db2ebef398b7f6",
+      "file_size": 7558,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.9538865,
+      "derived_pages": [
+        "mcp_connector"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\memory.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\memory.py",
+      "content_hash": "1b37230537dd20b39f5022a1e24ce92409420b6d0327e639ac19f20c8c2fdcd9",
+      "file_size": 12332,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.9575782,
+      "derived_pages": [
+        "memory"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\migration.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\migration.py",
+      "content_hash": "1cb3de7af04ef34d966b13c3d8f44bf11937b030982b0c8b7f2598b30bc77aec",
+      "file_size": 6440,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.9602053,
+      "derived_pages": [
+        "migration"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\progress_monitor.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\progress_monitor.py",
+      "content_hash": "ce4c954950af44112a43d6d75d4a17c1b9d9b6a60da6a50daa05dd0042e8ca29",
+      "file_size": 4277,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.962221,
+      "derived_pages": [
+        "progress_monitor"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\routing.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\routing.py",
+      "content_hash": "f202e25477e652d64361864c139a2a03f41efe8d9ee1b0989678a725f3475653",
+      "file_size": 6055,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.9645345,
+      "derived_pages": [
+        "routing"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\skill_factory.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\skill_factory.py",
+      "content_hash": "43045f03e6720d6a96e7986ebf3d21d0e4db8e453242b31f913a29c9c3dd723e",
+      "file_size": 6628,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.967079,
+      "derived_pages": [
+        "skill_factory"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\speculation.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\speculation.py",
+      "content_hash": "c0fd5c42f7b3d75d3725a24b5e50c242436b6bc8f8792c3e1f9238481c7608cb",
+      "file_size": 4824,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.969052,
+      "derived_pages": [
+        "speculation"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\state.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\state.py",
+      "content_hash": "495da8adcc474bfa8b936cf35af7b953753120fe6d68570214bf4e1e2f952754",
+      "file_size": 6641,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.971414,
+      "derived_pages": [
+        "state"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\styles.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\styles.py",
+      "content_hash": "84396dbced88b9fbef31465102335313a64326c2e087db1a1de816a56a0b28d5",
+      "file_size": 3384,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.9744623,
+      "derived_pages": [
+        "styles"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\swarm.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\swarm.py",
+      "content_hash": "fec31cae0bcf8be04c615d6ce6ada4c8af4a387d1aaeab1443a2d81d1e465d77",
+      "file_size": 13515,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.9783144,
+      "derived_pages": [
+        "swarm"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\swarm_marathon.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\swarm_marathon.py",
+      "content_hash": "5d32ae6b15b590624e5e11ece1810967f3e26d0c7158b7bb33d1cd9dd4e290e0",
+      "file_size": 2924,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.980181,
+      "derived_pages": [
+        "swarm_marathon"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\test_active_swarm_v52.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\test_active_swarm_v52.py",
+      "content_hash": "9c4b3ef3586e5f4fdb34d6b7babd39a7ab316c08a626ed016d35fde3b40c13f3",
+      "file_size": 3593,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.98273,
+      "derived_pages": [
+        "test_active_swarm_v52"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\test_concurrency_sync.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\test_concurrency_sync.py",
+      "content_hash": "34bceb2e4cb13bff4453369c82308feaf8350a544873cd4f4bca4874edb94f96",
+      "file_size": 3982,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.9847753,
+      "derived_pages": [
+        "test_concurrency_sync"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\test_context_tiering.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\test_context_tiering.py",
+      "content_hash": "fc09b850d0f5ebb6a69214345992e1c7ebccb3793db18bd073bc3d2647e797ea",
+      "file_size": 2735,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.9868393,
+      "derived_pages": [
+        "test_context_tiering"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\test_htas_pivot.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\test_htas_pivot.py",
+      "content_hash": "48c402926e241757ec9153d83cea390902ca20433979905a91b91f2fdb4331b1",
+      "file_size": 3994,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.9885917,
+      "derived_pages": [
+        "test_htas_pivot"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\test_ollama.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\test_ollama.py",
+      "content_hash": "56ecf045f87937e94cfe77c8f23a070b602fd9b096405a067720f84c44f46009",
+      "file_size": 1248,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912968.9907763,
+      "derived_pages": [
+        "test_ollama"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\tool_executor.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\tool_executor.py",
+      "content_hash": "b3b5856f124111cdea5c119b1c7f64f6206947432363c7f507d6285dd8142a4d",
+      "file_size": 14556,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.0017674,
+      "derived_pages": [
+        "tool_executor"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\tool_schemas.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\tool_schemas.py",
+      "content_hash": "d90b7e0772a0fedd13be61bd4ca7bcb0413fe74336d87aa59628e58cde2ca9c4",
+      "file_size": 14260,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.0057135,
+      "derived_pages": [
+        "tool_schemas"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\transport.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\transport.py",
+      "content_hash": "fff1c410f2c40fd873155460887a4dbd26a75fe78e525aaaa54ee0bdbb2c9c8a",
+      "file_size": 13287,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.00937,
+      "derived_pages": [
+        "transport"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\verify_enterprise_hardening.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\verify_enterprise_hardening.py",
+      "content_hash": "4b8755ab5941cf10685f40351864f5200eaeef62a5aeba00d6a4205f0e638ac7",
+      "file_size": 3962,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.0110254,
+      "derived_pages": [
+        "verify_enterprise_hardening"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\verify_v52_physical.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\verify_v52_physical.py",
+      "content_hash": "f87446003870ec6d1fbb9c1c4b34e0cfde21bea50ea2bdeea8ad5828e471d847",
+      "file_size": 4596,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.0127695,
+      "derived_pages": [
+        "verify_v52_physical"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\__init__.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\__init__.py",
+      "content_hash": "0a309987c6faed6f8efe7e9b119e906ff4ad2521a53bc4d338cc1cf6d8f417dc",
+      "file_size": 7437,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.0150938,
+      "derived_pages": [
+        "__init__"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\__main__.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\__main__.py",
+      "content_hash": "cb354bd3b62c5bacf90d7cba08b739a5949eb2b5ee10bc432e91d5eddd61779c",
+      "file_size": 232,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.016182,
+      "derived_pages": [
+        "__main__"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\__init__.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\__init__.py",
+      "content_hash": "12793acd3c80b9212050f9e991637c5d2c06d0bfc1ad91b6c3d3c742f965e531",
+      "file_size": 4944,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.0407245,
+      "derived_pages": [
+        "__init__"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\utils\\token_audit.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\utils\\token_audit.py",
+      "content_hash": "7109507239fc5d4a73109c0fc605ba2b3b2e181b6f873c4ad21925ac90186f0a",
+      "file_size": 1568,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.0443046,
+      "derived_pages": [
+        "token_audit"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\skills\\query_reminder\\scripts\\query_logic.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\skills\\query_reminder\\scripts\\query_logic.py",
+      "content_hash": "351709b7c5ab3117f3d2a0c3871d4f4b2b3479691b3c1a968d3e7838bb222a7a",
+      "file_size": 11556,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.0478585,
+      "derived_pages": [
+        "query_logic"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\skills\\query_reminder\\scripts\\__init__.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\skills\\query_reminder\\scripts\\__init__.py",
+      "content_hash": "2a35862860d1706aadb63e209871903bc29df3764e50ffc87c24c52de9cee17d",
+      "file_size": 95,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.048801,
+      "derived_pages": [
+        "__init__"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\akp_types.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\akp_types.py",
+      "content_hash": "12415485b1f57c7798a3c986639dfb9c3f75736a75d90a3b13a758836fd58f00",
+      "file_size": 17228,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.0526767,
+      "derived_pages": [
+        "akp_types"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\base_plugin.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\base_plugin.py",
+      "content_hash": "06e1cbd964cd5bd212b9b8f4f25dd697ba40a7dd04855f3ae51ba51ec2b2513e",
+      "file_size": 5434,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.054615,
+      "derived_pages": [
+        "base_plugin"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\engine.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\engine.py",
+      "content_hash": "5824a211c3aeecc36de399956782afb866a6fe3eaf7b618bb9f8245cead23683",
+      "file_size": 24784,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.0595837,
+      "derived_pages": [
+        "engine"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\__init__.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\__init__.py",
+      "content_hash": "21b8de320a672f5d3b1bcd96bba251736aacca1a66de55073cd5a26d42ebbbdf",
+      "file_size": 5506,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.0613608,
+      "derived_pages": [
+        "__init__"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\akp_parser.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\akp_parser.py",
+      "content_hash": "0280215de705c731d1c3d4cf58c94edb37aed46123b625d877646c955ed51e71",
+      "file_size": 12719,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.0647442,
+      "derived_pages": [
+        "akp_parser"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\atlas.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\atlas.py",
+      "content_hash": "616351b68282d86c99dc04db5e52db9fe547e65ea5ea2eaa45f0cb278cb6d70e",
+      "file_size": 28049,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.0708766,
+      "derived_pages": [
+        "atlas"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\compiler.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\compiler.py",
+      "content_hash": "0decdfa5360f0fc3149830b4b69451a873f981984ddbc25e1eb70cf13566467d",
+      "file_size": 18275,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.0754733,
+      "derived_pages": [
+        "compiler"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\coordination.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\coordination.py",
+      "content_hash": "cafc9611da3d06d40fe6be261315910bd97d59cd11a47d3397be8ebb18c2f6e4",
+      "file_size": 26474,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.0888374,
+      "derived_pages": [
+        "coordination"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\enricher.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\enricher.py",
+      "content_hash": "fc0c8f53cc9f486778088cd8c8df6ae27e7c08cb03a78177f345ce01f2a593fd",
+      "file_size": 24839,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.0946531,
+      "derived_pages": [
+        "enricher"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\pii_sentinel.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\pii_sentinel.py",
+      "content_hash": "074b2cf4cadc67971ae26333f9167f238339004ced9c9a88ea0f49f12fd3c0d5",
+      "file_size": 10843,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.0979204,
+      "derived_pages": [
+        "pii_sentinel"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\polyglot_parser.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\polyglot_parser.py",
+      "content_hash": "ee422c09b66d82fb6c5e8a5602bfc4fc703ecab449d53fca2322be2602d65269",
+      "file_size": 29212,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.1044672,
+      "derived_pages": [
+        "polyglot_parser"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\search.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\search.py",
+      "content_hash": "f394073286b0f255fc616c1866da8ad8fd15809f7e92e5980760508052163009",
+      "file_size": 9040,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.1085064,
+      "derived_pages": [
+        "search"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\session_hooks.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\session_hooks.py",
+      "content_hash": "97aa99c5e0f7a6f25ad3eb5b4bcfc80c59a4297c8a4a5dd427b503bbc4a96abf",
+      "file_size": 20313,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.1136696,
+      "derived_pages": [
+        "session_hooks"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\shadow_mirror.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\shadow_mirror.py",
+      "content_hash": "cdda4a7fcaae4e16067b38763a9d0225135ffc95cd80dddc3e08c612a4f23cd0",
+      "file_size": 19968,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.1185453,
+      "derived_pages": [
+        "shadow_mirror"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\skill_tracker.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\skill_tracker.py",
+      "content_hash": "eedbde2f729d88759ff70c9ce273b97cf623e6cb600e5175c3b54459ea85ba83",
+      "file_size": 23639,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.1244178,
+      "derived_pages": [
+        "skill_tracker"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\storage.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\storage.py",
+      "content_hash": "2546229317dae39beacafdf8fd92e71def267bdec0c65a2abb737eba057551fb",
+      "file_size": 16647,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.13136,
+      "derived_pages": [
+        "storage"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\surreal_atlas.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\surreal_atlas.py",
+      "content_hash": "8a89371c055d782270036dfc64f11363a1bc7f8e9ec788206895a7b1ac660774",
+      "file_size": 3472,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.134049,
+      "derived_pages": [
+        "surreal_atlas"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    },
+    "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\taxonomy.py": {
+      "source_path": "D:\\ai\\workspace\\.Coda\\wiki\\raw\\plugins\\wiki\\plugins\\taxonomy.py",
+      "content_hash": "a4bb0a0c27823a190dca350af8641ef8d19f9b098b249ba549cba30d07b68f06",
+      "file_size": 28502,
+      "mime_type": "text/x-python",
+      "last_compiled": 1775912969.1442432,
+      "derived_pages": [
+        "taxonomy"
+      ],
+      "status": "compiled",
+      "error_message": "",
+      "retry_count": 0
+    }
+  }
+}

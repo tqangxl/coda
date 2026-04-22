@@ -1,0 +1,25 @@
+{
+  "session_id": "ckpt-1775997073-1",
+  "timestamp": 1775997073.1855617,
+  "phase": "final",
+  "completed_tasks": [],
+  "current_task": "Query processing #0",
+  "files_modified": [],
+  "pending_writes": [],
+  "progress_pct": 0.0,
+  "next_steps": [],
+  "context": {
+    "queries": 0,
+    "handoff": {
+      "task_id": "session-0",
+      "completed_items": [],
+      "current_state": "Query count: 0, Duration: 1775997073s",
+      "key_findings": [
+        "Seeding completed"
+      ],
+      "next_suggestions": [],
+      "created_by": "",
+      "created_at": 1775997073.1855512
+    }
+  }
+}

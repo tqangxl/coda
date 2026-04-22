@@ -1,0 +1,60 @@
+# === Core Services ===
+fastapi
+uvicorn[standard]
+surrealdb==2.0.0a1
+python-dotenv
+pydantic
+aiohttp
+psutil
+modelscope[framework]
+
+# === Antigravity V4.0 Engine ===
+google-genai>=1.0.0       # Gemini API
+anthropic>=0.40.0          # Claude API (optional)
+openai>=1.50.0             # OpenAI API (optional)
+pyyaml>=6.0                # Skill YAML parsing
+
+# === Qwen3-Embedding Local Vectorization ===
+sentence-transformers>=2.7.0  # Embedding model runtime
+transformers>=4.51.0          # Model backbone
+torch>=2.0.0                  # Tensor computation
+sqlite-vec
+
+
+
+pypinyin
+# === Auxiliary & Future Extension ===
+modelscope                      # Model loading for embedding engine
+tree-sitter                     # AST-aware code parsing (Wiki Compiler)
+# 通用语言：Python, JS, TS, Java, C, C++, Rust, Go, Ruby, Bash.
+# 标记/数据语言：JSON, YAML, HTML, CSS, Markdown.
+tree-sitter-python
+tree-sitter-javascript
+tree-sitter-typescript
+tree-sitter-json
+tree-sitter-yaml
+tree-sitter-html
+tree-sitter-css
+tree-sitter-c
+tree-sitter-cpp
+tree-sitter-rust
+tree-sitter-go
+tree-sitter-java
+tree-sitter-ruby
+tree-sitter-bash
+tree-sitter-markdown
+
+requests                        # Synchronous HTTP client
+scikit-learn                    # Data processing and ML utilities
+numpy                           # Computational foundation
+scipy                           # Scientific computation foundation
+PyMuPDF
+pdfplumber
+python-docx
+openpyxl
+python-pptx
+beautifulsoup4
+apscheduler
+
+presidio_analyzer
+

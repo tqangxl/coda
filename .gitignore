@@ -1,0 +1,221 @@
+
+#1. 通用开发环境 (IDE & 系统)
+# --- 操作系统文件 ---
+.DS_Store
+Thumbs.db
+# --- IDE/编辑器 (VS Code, IntelliJ, PyCharm) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.settings/
+.classpath
+#2. 前端/Node.js 环境
+#如果你是在进行 Web 开发，最核心的是排除庞大的依赖包。
+# 依赖包
+node_modules
+**/node_modules/
+jspm_packages/
+.env
+#这里的 **/ 是通配符，意味着无论 node_modules 在哪一层子目录下，Git 都会视而不见。
+# 构建输出
+dist/
+**/dist/
+build/
+.next/
+.nuxt/
+# 日志与缓存
+npm-debug.log*
+yarn-error.log*
+.eslintcache
+#3. Python 开发环境
+#Python 项目主要需要忽略虚拟环境和编译后的字节码。
+# 虚拟环境
+venv/
+.venv/
+env/
+ENV/
+# 编译文件
+surrealdb/
+.antigravity/
+.gemini/
+.trajectories/
+agents/*/logs/
+__pycache__/
+*.py[cod]
+*$py.class
+# 爬虫或数据分析产生的临时文件
+.ipynb_checkpoints/
+#4. Java 开发环境
+#主要针对 Maven 或 Gradle 的构建输出。
+target/
+bin/
+out/
+# 日志文件
+*.log
+#5. 敏感信息与配置 (非常重要)
+#无论什么项目，带有密钥的文件绝对不能进 Git。
+# 环境配置文件
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# 密钥与证书
+*.pem
+*.key
+*.cert
+*.zip
+# =============================================================================
+# Git Ignore for Network Intelligence Platform
+.cursor/
+.trae
+venv312/
+venv314/
+.qoder/
+.agent/
+.agents/
+.shared/
+.roo/
+.trae/
+.windsurf/
+.opencode/
+.openwork/
+.kiro/
+.codex/
+.gemini/
+.claude/
+# --- Python ---
+# Byte-compiled / optimized / C files
+**/__pycache__/
+**__pycache__
+typings/**
+.pytest_cache/
+**/__pycache__/**
+v1/node_modules/
+v2/node_modules/
+v3/node_modules/
+v4/node_modules/
+v3/dist/
+# Distribution / packaging
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+typings/*
+# Virtual Environments
+.venv
+env.bak/
+venv.bak/
+# --- IDEs and Editors ---
+*~
+*.sublime-project
+*.sublime-workspace
+# Environments
+~*
+openclaw-docker/.env
+# IDEs and editors
+*.project
+*.tmproj
+main.spec
+# --- Testing & Coverage ---
+.coverage
+coverage.xml
+htmlcov/
+nosetests.xml
+*.cover
+astro-frontend/.vscode/
+astro-frontend/.astro/
+.ruff_cache/
+cache/
+e2e/
+# --- Application-specific ---
+# Data files (IMPORTANT: Never commit the database)
+data/*.db
+data/*.db.wal
+data/twins/*.db
+data/twins/*.db.wal
+backends/data/raw_scans/*
+# Logs
+logs/*.log
+logs/*.log.*
+logs/
+backends\logs\*.log
+# Reports
+reports/*.pdf
+reports/*.xlsx
+reports/*.dot
+reports/*.png
+network_executor_7ae1ecddb5.py
+# Configuration (local overrides and secrets)
+# Only commit the example file, not the actual secrets file
+config/config.local.yaml
+# Databases
+*.sqlite
+*.sqlite3
+*.db
+*.duckdb
+*.duckdb.wal
+# Data files (if not intended to be versioned)
+/data/
+# If you want to keep the data directory structure but ignore its contents:
+# /data/*
+# !/data/.gitkeep
+/output/
+/Output/
+/Output-old/
+pysnmp/
+# Snapshots
+/data/snapshots/*
+**logs/
+Log/
+# Coverage reports
+.coverage.*
+# Build artifacts
+# Sphinx documentation build output
+docs/_build/
+# Machine Learning Models
+models/*.pkl
+models/*.zip
+models/*.onnx
+# MyPy cache
+.mypy_cache/
+# Pytest cache
+# OS-specific
+# --- OS-specific ---
+# macOS
+.AppleDouble
+.LSOverride
+.gitignore
+data/codex/vol-1.json
+node_modules
+node_modules
+
+# [S-02] Prevent .env secrets from being committed
+.env
+.env.local
+.env.production
+
+# [G-01] TypeScript build artifacts
+src/**/*.js
+src/**/*.d.ts
+src/**/*.d.ts.map
+src/**/*.js.map
+dist/
+build/
+
+engine/secrets.json
+.env
+
+NUL

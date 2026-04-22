@@ -1,0 +1,101 @@
+# WeChat Integration Config
+# 微信集成配置文件
+
+wechat:
+  # 企业微信配置
+  enterprise:
+    enabled: true
+    webhook_url: "${WECHAT_ENTERPRISE_WEBHOOK_URL}"
+    corp_id: "${WECHAT_CORP_ID}"
+    agent_id: "${WECHAT_AGENT_ID}"
+
+  # 个人微信配置（通过PushPlus）
+  personal:
+    enabled: false
+    service: "pushplus"
+    api_url: "http://pushplus.plus/send"
+    token: "${WECHAT_PERSONAL_TOKEN}"
+
+# 通知事件配置
+notifications:
+  # 任务完成通知
+  task_completed:
+    enabled: true
+    priority: "low"
+    digest: true
+    digest_interval: 30m
+    template: "task_completed"
+
+  # 任务失败通知
+  task_failed:
+    enabled: true
+    priority: "high"
+    digest: false
+    template: "task_failed"
+
+  # 每日汇总
+  daily_summary:
+    enabled: true
+    priority: "normal"
+    time: "21:00"
+    template: "daily_summary"
+
+  # 每周报告
+  weekly_report:
+    enabled: true
+    priority: "normal"
+    day: "sunday"
+    time: "21:00"
+    template: "weekly_report"
+
+  # 学习提醒
+  study_reminder:
+    enabled: true
+    priority: "normal"
+    times:
+      - "08:00"  # 早间学习提醒
+      - "19:00"  # 晚间作业提醒
+    template: "study_reminder"
+
+  # 日程提醒
+  schedule_reminder:
+    enabled: true
+    priority: "normal"
+    advance_minutes: 15
+    template: "schedule_reminder"
+
+  # 习惯提醒
+  habit_reminder:
+    enabled: true
+    priority: "low"
+    times:
+      - "09:00"  # 上午提醒
+      - "14:00"  # 下午提醒
+      - "18:00"  # 晚间提醒
+    template: "habit_reminder"
+
+  # 系统告警
+  system_alert:
+    enabled: true
+    priority: "high"
+    digest: false
+    template: "system_alert"
+
+# 静默时段（不发送通知）
+quiet_hours:
+  enabled: true
+  start: "22:00"  # 晚上10点
+  end: "08:00"    # 早上8点
+  allow_urgent: true  # 紧急通知不受限制
+
+# 用户通知偏好（可覆盖全局配置）
+user_preferences:
+  # 用户ID -> 通知配置
+  default_user:
+    notify_events:
+      - task_completed
+      - task_failed
+      - daily_summary
+      - weekly_report
+    quiet_hours:
+      enabled: false  # 该用户不禁音

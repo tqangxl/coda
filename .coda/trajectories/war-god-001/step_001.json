@@ -1,0 +1,27 @@
+{
+  "step": 1,
+  "timestamp": 1775507798.060419,
+  "model": "mock-war-god",
+  "thought": "Listing non-existent lab.",
+  "analysis": "",
+  "plan": "",
+  "tool_calls": [
+    {
+      "name": "run_command",
+      "arguments": {
+        "command": "ls non_existent_lab_dir"
+      }
+    }
+  ],
+  "tool_results": [
+    {
+      "tool_name": "run_command",
+      "result": "[STDERR]\n'ls' is not recognized as an internal or external command,\r\noperable program or batch file.\n[EXIT CODE: 1]"
+    }
+  ],
+  "usage": {
+    "input": 0,
+    "output": 0,
+    "cache": 0
+  }
+}

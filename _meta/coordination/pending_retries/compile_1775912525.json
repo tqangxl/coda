@@ -1,0 +1,11 @@
+{
+  "id": "compile_1775912525",
+  "action": "compile",
+  "target": "D:\\ai\\workspace\\.Coda\\wiki",
+  "payload": {},
+  "error": "'NoneType' object has no attribute 'save'",
+  "retry_count": 0,
+  "max_retries": 3,
+  "created_at": 1775912525.4878712,
+  "next_retry_at": 0
+}
